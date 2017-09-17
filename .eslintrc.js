@@ -1,8 +1,12 @@
 module.exports = {
-  'extends': 'standard',
+  "extends": [
+    'standard',
+    "plugin:flowtype/recommended"
+  ],
   'plugins': [
     'standard',
-    'promise'
+    'promise',
+    "flowtype"
   ],
   'parser': 'babel-eslint'
 }
